@@ -1,0 +1,775 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2962187951206455788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4520294577965739504}
+  - component: {fileID: 6942566013352444895}
+  - component: {fileID: 8001653104485323971}
+  m_Layer: 5
+  m_Name: EnterCodeArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4520294577965739504
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2962187951206455788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 487932677784247123}
+  - {fileID: 657811409251661813}
+  - {fileID: 6145857938227097060}
+  - {fileID: 7170737108764666317}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6942566013352444895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2962187951206455788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 10
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 1
+  m_ChildScaleHeight: 1
+  m_ReverseArrangement: 0
+--- !u!114 &8001653104485323971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2962187951206455788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb4e2b4463fb49cc95aebc3de77cab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputFields:
+  - {fileID: 6886881557403820924}
+  - {fileID: 5798210365677899738}
+  - {fileID: 872602515031889355}
+  - {fileID: 4239559667396497890}
+  activateFirstInputField: 1
+--- !u!1001 &90923986045198134
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4520294577965739504}
+    m_Modifications:
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0]
+      value: 
+      objectReference: {fileID: 6886881557403820924}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1]
+      value: 
+      objectReference: {fileID: 5798210365677899738}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2]
+      value: 
+      objectReference: {fileID: 872602515031889355}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3]
+      value: 
+      objectReference: {fileID: 4239559667396497890}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0].inputField
+      value: 
+      objectReference: {fileID: 6886881557403820924}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1].inputField
+      value: 
+      objectReference: {fileID: 5798210365677899738}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2].inputField
+      value: 
+      objectReference: {fileID: 872602515031889355}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3].inputField
+      value: 
+      objectReference: {fileID: 4239559667396497890}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9202876038402063961, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_Name
+      value: InputFieldEnterCode3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ccc8b9d56a51e4557983b4a49e5f6f5c, type: 3}
+--- !u!114 &4239559667396497890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4293891888180924116, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 90923986045198134}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &7170737108764666317 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 90923986045198134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4002271464368773919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4520294577965739504}
+    m_Modifications:
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0]
+      value: 
+      objectReference: {fileID: 6886881557403820924}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1]
+      value: 
+      objectReference: {fileID: 5798210365677899738}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2]
+      value: 
+      objectReference: {fileID: 872602515031889355}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3]
+      value: 
+      objectReference: {fileID: 4239559667396497890}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0].inputField
+      value: 
+      objectReference: {fileID: 6886881557403820924}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1].inputField
+      value: 
+      objectReference: {fileID: 5798210365677899738}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2].inputField
+      value: 
+      objectReference: {fileID: 872602515031889355}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3].inputField
+      value: 
+      objectReference: {fileID: 4239559667396497890}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9202876038402063961, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_Name
+      value: InputFieldEnterCode2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ccc8b9d56a51e4557983b4a49e5f6f5c, type: 3}
+--- !u!114 &872602515031889355 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4293891888180924116, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4002271464368773919}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &6145857938227097060 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 4002271464368773919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7207423677276286376
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4520294577965739504}
+    m_Modifications:
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0]
+      value: 
+      objectReference: {fileID: 6886881557403820924}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1]
+      value: 
+      objectReference: {fileID: 5798210365677899738}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2]
+      value: 
+      objectReference: {fileID: 872602515031889355}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3]
+      value: 
+      objectReference: {fileID: 4239559667396497890}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0].inputField
+      value: 
+      objectReference: {fileID: 6886881557403820924}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1].inputField
+      value: 
+      objectReference: {fileID: 5798210365677899738}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2].inputField
+      value: 
+      objectReference: {fileID: 872602515031889355}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3].inputField
+      value: 
+      objectReference: {fileID: 4239559667396497890}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9202876038402063961, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_Name
+      value: InputFieldEnterCode0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ccc8b9d56a51e4557983b4a49e5f6f5c, type: 3}
+--- !u!224 &487932677784247123 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7207423677276286376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6886881557403820924 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4293891888180924116, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7207423677276286376}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &7773659871304253710
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4520294577965739504}
+    m_Modifications:
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0]
+      value: 
+      objectReference: {fileID: 6886881557403820924}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1]
+      value: 
+      objectReference: {fileID: 5798210365677899738}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2]
+      value: 
+      objectReference: {fileID: 872602515031889355}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3]
+      value: 
+      objectReference: {fileID: 4239559667396497890}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0].inputField
+      value: 
+      objectReference: {fileID: 6886881557403820924}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1].inputField
+      value: 
+      objectReference: {fileID: 5798210365677899738}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2].inputField
+      value: 
+      objectReference: {fileID: 872602515031889355}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3].inputField
+      value: 
+      objectReference: {fileID: 4239559667396497890}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[0].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[1].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[2].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: inputFields.Array.data[3].touchScreenKeyboardType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9202876038402063961, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+        type: 3}
+      propertyPath: m_Name
+      value: InputFieldEnterCode1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3921890055467448132, guid: ccc8b9d56a51e4557983b4a49e5f6f5c, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ccc8b9d56a51e4557983b4a49e5f6f5c, type: 3}
+--- !u!224 &657811409251661813 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7115851834143045371, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7773659871304253710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5798210365677899738 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4293891888180924116, guid: ccc8b9d56a51e4557983b4a49e5f6f5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7773659871304253710}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
